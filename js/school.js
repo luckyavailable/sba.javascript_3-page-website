@@ -69,3 +69,10 @@ function myUpload() {
 
    }
 
+   /**This function is under construction.*/
+
+     function enterStudentDetails()  {
+                alert("Student submitted successfully")
+
+      }
+
