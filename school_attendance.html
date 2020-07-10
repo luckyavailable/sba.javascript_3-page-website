@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> SCHOOL ATTENDANCE </title>
+  <link href="./css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="./js/school.js"></script>
+
+</head> <!-- header ends here -->
+<body> <!-- body begins here -->
+<div class="header">
+  <h1>Dr.Phillips Elementary School</h1>
+  <img class ="schoolimage1" src="img/schoolemoji.jpg" alt="schoolemoji"  width="8%">
+  </div>
+<div class="navbar">
+  <a href="#">Student Attendance</a>
+  <a href="photoUpload.html" target="_blank">Photo Upload</a>
+  <a href="Student_Details.html" target="_blank">Student Details</a>
+  <a href="ReadMe.html" class="right">Help</a>
+</div>
+<!-- row -->
+
+<div class="flex-container">
+  <div class ="divsize"> Student A
+    <img class ="myimage" src="img/studentemoji.png"/>
+    <input type="checkbox"  id ="student1"></input>
+  </div>
+  <div class="divsize"> Student B
+    <img class ="myimage" src="img/boyimage.png"/>
+    <input type="checkbox"  id ="student2"></input>
+  </div>
+  <div class="divsize">Student C
+    <img class ="myimage" src="img/images.png"/>
+    <input type="checkbox"  id ="student3"></input>
+  </div>
+  <div class="divsize">Student D
+    <img class ="myimage" src="img/images.png"/>
+    <input type="checkbox"  id ="student4"></input>
+  </div>
+  <div class="divsize">Student E
+    <img class ="myimage" src="img/images.png"/>
+    <input type="checkbox"  id ="student5"></input>
+  </div>
+</div>
+ <br>
+  <div align="center">
+    <button type="button" onclick="verifyAttendance()">Submit</button>
+  </div>
+</body>
+</html>
